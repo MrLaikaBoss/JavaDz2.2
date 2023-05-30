@@ -10,9 +10,9 @@ public class Main {
         // сценариев рассчитываете сумму бонуса и выводите
         // на экран.
 
-        int balance = 300;
+        int balance = 100;
         int sum = 1500;
-        int bonus = sum / 300;
+        int bonus = sum / 100;
         if (sum < 1000) {
             bonus = 0;
         }
